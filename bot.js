@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api')
-const token = '1581360694:AAHLNzzczP0J8UcROUtsl_3VdVrK-1XaHRU'
+const token = ''
 const bot = new TelegramBot(token,{polling:true})
 var redis = require("redis");
 const jwt = require('jsonwebtoken')
